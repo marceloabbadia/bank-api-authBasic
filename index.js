@@ -82,19 +82,21 @@ app.use(basicAuth({
     }
 }))
 
-app.use("/account", authorize('admin'), accountsRouter);
+app.use("/account", authorize('admin'), accountsRouter)
 
-app.listen(3000, async () => {
+const PORT= 3000 
+
+app.listen(PORT, async () => {
     try {
         await readFile(global.fileName);
-        logger.info("API Started!");
+        logger.info(`API Started on port ${PORT}!`);
     } catch (err) {
         const initialJson = {
             nextId: 1,
             accounts: []
         }
         writeFile(global.fileName, JSON.stringify(initialJson)).then(() => {
-            logger.info("API Started and File Created!");
+            logger.info(`API Started on port ${PORT} and File Created!`);
         }).catch(err => {
             logger.error(err);
         });

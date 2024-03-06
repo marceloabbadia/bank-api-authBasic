@@ -162,3 +162,11 @@
 2021-05-31T21:01:23.727Z [my-bank-api] info: API Started!
 2021-05-31T21:02:12.096Z [my-bank-api] info: GET /account
 2021-05-31T21:03:33.779Z [my-bank-api] info: API Started!
+2024-03-06T14:03:49.581Z [my-bank-api] info: API Started!
+2024-03-06T14:05:13.130Z [my-bank-api] info: API Started!
+2024-03-06T14:05:33.625Z [my-bank-api] info: API Started on port 3000!
+2024-03-06T14:08:50.335Z [my-bank-api] info: GET /account
+2024-03-06T14:08:56.694Z [my-bank-api] info: GET /account
+2024-03-06T14:09:00.698Z [my-bank-api] info: GET /account
+2024-03-06T14:13:53.370Z [my-bank-api] info: API Started on port 3000!
+2024-03-06T14:27:39.323Z [my-bank-api] info: POST /account - {"id":18,"name":"Marcelo Abbadia","balance":7444}
