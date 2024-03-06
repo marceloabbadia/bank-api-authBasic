@@ -1,5 +1,8 @@
 # My Bank API
 
+<img width="1512" alt="bank-api-authBasic" src="https://github.com/marceloabbadia/bank-api-authBasic/assets/112344339/1683f827-8747-4ab0-8e6a-c3f3c75802ac">
+
+
 ## Descrição
 
 My Bank API é uma aplicação Node.js que fornece serviços bancários básicos através de uma API RESTful. A API permite a criação, leitura, atualização e exclusão de contas bancárias, bem como a autenticação e autorização de usuários.
